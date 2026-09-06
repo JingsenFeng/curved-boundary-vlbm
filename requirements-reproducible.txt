@@ -1,0 +1,9 @@
+# Python 3.11; versions used for the manuscript simulations and release checks.
+# Install the package itself with: python -m pip install -e .
+numpy==2.3.5
+scipy==1.16.3
+matplotlib==3.10.7
+warp-lang==1.10.1
+pyvista==0.46.4
+vtk==9.5.2
+Pillow==12.0.0

@@ -1,0 +1,81 @@
+{
+  "annulus": {
+    "file": "annulus/annulus_traction_fem_n196.npz",
+    "sha256": "717587e6ffb4567d14f8d07399539858b7e44c8933df4a7a5dd54772a951be84",
+    "parameters": {
+      "n": 196,
+      "center_x": 0.5,
+      "center_y": 0.5,
+      "inner_radius": 0.18,
+      "outer_radius": 0.42,
+      "traction_mode": "radial",
+      "traction_amplitude": 1.0,
+      "traction_x": 0.0,
+      "traction_y": 0.02,
+      "mu": 1.0,
+      "poisson": 0.2,
+      "rho0": 1.0,
+      "run_time": 5.0,
+      "ramp_time": 2.0,
+      "damping_gamma": 10.0
+    }
+  },
+  "superellipse": {
+    "file": "superellipse/superellipse_mixed_fem_n384.npz",
+    "sha256": "bff5c9bd1a306cb379aa60f96a71565ee24027fbcc3583a441811e74aa74f708",
+    "parameters": {
+      "n": 384,
+      "center_x": 0.5,
+      "center_y": 0.5,
+      "outer_a": 0.42,
+      "outer_b": 0.3,
+      "outer_theta": 20.0,
+      "inner_a": 0.16,
+      "inner_b": 0.1,
+      "inner_theta": -15.0,
+      "superellipse_power": 4.0,
+      "traction_x": 0.0,
+      "traction_y": 0.125,
+      "mu": 1.0,
+      "poisson": 0.2,
+      "rho0": 1.0,
+      "fem_mode": "static"
+    }
+  },
+  "pulse": {
+    "file": "pulse/eccentric_pulse_fem_history_n128.npz",
+    "sha256": "9f735aadde80c096f32000543ef1ebdc0d05c0d4c8d686ac7811e0a1812087db",
+    "parameters": {
+      "n": 128,
+      "outer_cx": 0.5,
+      "outer_cy": 0.5,
+      "outer_radius": 0.42,
+      "inner_cx": 0.6,
+      "inner_cy": 0.5,
+      "inner_radius": 0.16,
+      "mu": 1.0,
+      "poisson": 0.2,
+      "rho0": 1.0,
+      "traction_amplitude": 1.5,
+      "pulse_time": 16.0,
+      "run_time": 8.0,
+      "damping_gamma": 0.0,
+      "probe_left_x": 0.26,
+      "probe_left_y": 0.5,
+      "probe_upper_x": 0.5,
+      "probe_upper_y": 0.82,
+      "probe_average_radius": 0.05
+    }
+  },
+  "tube": {
+    "file": "tube/fem_profiles.csv",
+    "sha256": "a7bc6e2e988e9c36f6e64fa229f408ec814e949ada9356019c4f10bb7c0a2fc4",
+    "parameters": {
+      "inner_radius": 0.15,
+      "outer_radius": 0.3,
+      "length_z": 3.0,
+      "axial_strain": 0.5,
+      "twist_angle_rad": 0.7853981633974483
+    }
+  }
+}

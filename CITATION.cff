@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and the software version used in your work."
+type: software
+title: "Curved Boundary VLBM: total-Lagrangian vectorial lattice Boltzmann solvers for finite-strain hyperelasticity"
+authors:
+  - family-names: Feng
+    given-names: Jingsen
+  - family-names: Chu
+    given-names: Xu
+version: 1.0.0
+date-released: 2026-09-06
+license: Apache-2.0
+repository-code: "https://github.com/JingsenFeng/curved-boundary-vlbm"
+url: "https://github.com/JingsenFeng/curved-boundary-vlbm"
+abstract: >-
+  D2Q4x6 and D3Q6x12 vectorial lattice Boltzmann solvers for finite-strain
+  hyperelasticity with curved Dirichlet and nominal-traction boundaries,
+  including reproducible benchmarks, FEM references, and numerical tests.
+keywords:
+  - lattice Boltzmann
+  - hyperelasticity
+  - curved boundaries
+  - GPU
+  - computational solid mechanics

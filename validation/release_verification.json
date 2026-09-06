@@ -1,0 +1,67 @@
+{
+  "status": "unit_and_package_checks_passed",
+  "python": "3.11",
+  "warp": "1.10.1",
+  "numpy": "2.3.5",
+  "scipy": "1.16.3",
+  "matplotlib": "3.10.7",
+  "cpu_tests": {
+    "passed": 27
+  },
+  "cuda_tests": {
+    "passed": 27,
+    "gpu": "NVIDIA GeForce RTX 5090"
+  },
+  "installed_wheel_tests": {
+    "passed": 27
+  },
+  "initialization_repeatability": {
+    "package_a": {
+      "u": {
+        "array_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      "U": {
+        "array_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      "F": {
+        "array_equal": true,
+        "max_absolute_difference": 0.0
+      }
+    },
+    "package_b": {
+      "u": {
+        "array_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      "U": {
+        "array_equal": true,
+        "max_absolute_difference": 0.0
+      },
+      "F": {
+        "array_equal": true,
+        "max_absolute_difference": 0.0
+      }
+    }
+  },
+  "portable_figure_pipeline": {
+    "pdf_figures_generated": 12,
+    "stored_workstation_paths_made_unavailable": true
+  },
+  "fem_reference_checks": {
+    "planar_small_case": "passed",
+    "tube_small_case": "passed",
+    "tube_profile_export_max_differences": {
+      "z": 0.0,
+      "kinematic_sin": 0.0,
+      "linear_theta": 0.0,
+      "linear_uz": 2.220446049250313e-16,
+      "fem_mean_utheta_over_r": 0.0,
+      "fem_theta_fit": 0.0,
+      "fem_mean_uz": 0.0,
+      "fem_mean_J": 0.0
+    }
+  },
+  "full_benchmark_verification": "in progress"
+}

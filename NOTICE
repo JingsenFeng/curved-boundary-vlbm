@@ -1,0 +1,15 @@
+Curved Boundary VLBM
+Copyright 2026 Jingsen Feng and Xu Chu
+
+This software was developed in the examples/solid tree of XLB.
+The applicable XLB notice is retained here:
+
+Copyright 2023 Autodesk Inc
+Licensed under the Apache License, Version 2.0.
+
+The standalone solver uses NVIDIA Warp, NumPy, SciPy, and Matplotlib.
+Their distributions retain their own licenses. XLB, JAX, and FEniCSx
+are not dependencies of the lattice Boltzmann solver.
+
+Reference arrays and figure previews in this repository accompany the
+research software and are distributed under the repository license.

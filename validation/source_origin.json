@@ -1,0 +1,162 @@
+[
+  {
+    "source": "newcode/curved_lbm/curved_boundary_warp.py",
+    "destination": "src/curved_lbm/two_d/curved_boundary_warp.py",
+    "source_sha256": "853102fc5e84f9de200b8031056a7adca35d2328beb68a2e14c86a6dab47e1b4"
+  },
+  {
+    "source": "newcode/curved_lbm/vector_nonlinear_elastic_warp.py",
+    "destination": "src/curved_lbm/two_d/vector_nonlinear_elastic_warp.py",
+    "source_sha256": "b35a74cb464f57eb3fda4ff4836a2f52690dddbbcd771e7a4a30967efbe555e0"
+  },
+  {
+    "source": "newcode/vector_lbm_3d_package/curved_boundary_warp3d.py",
+    "destination": "src/curved_lbm/three_d/curved_boundary_warp3d.py",
+    "source_sha256": "2a6c7db9f2e99edf617efb8a8c831afaa053239f5fbe52adcc74a5c4dec27b3d"
+  },
+  {
+    "source": "newcode/vector_lbm_3d_package/vector_nonlinear_elastic_warp3d.py",
+    "destination": "src/curved_lbm/three_d/vector_nonlinear_elastic_warp3d.py",
+    "source_sha256": "44301e01692eb1cdc5a8497492eb307282dccd8894e735685aff0861547871b9"
+  },
+  {
+    "source": "newcode/vector_lbm_3d_package/characteristic_stencil3d.py",
+    "destination": "src/curved_lbm/three_d/characteristic_stencil3d.py",
+    "source_sha256": "9a45402a71c5b39a0fa8a8dadea5dc386db110c62d8bc4378c3581741d836aab"
+  },
+  {
+    "source": "newcode/cases/run_fig1_dirichlet_annulus.py",
+    "destination": "cases/affine_annulus.py",
+    "source_sha256": "42a768b6b5e93ab25174a999e8809379981a8982aa7dc6593bedf358ac3801d0"
+  },
+  {
+    "source": "newcode/cases/run_fig2_3_annulus_radial.py",
+    "destination": "cases/radial_annulus.py",
+    "source_sha256": "7cb348d72dd7f636318c5ffd92189520edf6259159de126727e3af76040976de"
+  },
+  {
+    "source": "newcode/cases/run_fig4_5_superellipse.py",
+    "destination": "cases/superellipse_shell.py",
+    "source_sha256": "92395f35d38896106817f67801ef3ce7d1ce8bd61100f353d0b065555ecb08e9"
+  },
+  {
+    "source": "newcode/cases/run_figr14_eccentric_pulse.py",
+    "destination": "cases/eccentric_pulse.py",
+    "source_sha256": "a29a3cdebdd7e8abbdaf970672999679ce2164bc745fdd8c0c76ca3988aa95f1"
+  },
+  {
+    "source": "newcode/cases/run_fig6_ellipsoid.py",
+    "destination": "cases/affine_ellipsoid.py",
+    "source_sha256": "b34529ac61e7f0e53e4451bae0ed12f10e9b37409e660061ada6a04500ca27ef"
+  },
+  {
+    "source": "newcode/cases/run_fig7_8_spherical_shell.py",
+    "destination": "cases/spherical_shell.py",
+    "source_sha256": "02be2b6781c4d52b4d16d8547ecb92f77993d4ac3dc1eed528fa2953e75e3451"
+  },
+  {
+    "source": "newcode/cases/run_fig10_11_tube.py",
+    "destination": "cases/tube_pull_torsion.py",
+    "source_sha256": "f4d60ad2dad2cd638c5198389761d11f6ad047f5b5966e8eb302e01aec58b90d"
+  },
+  {
+    "source": "newcode/cases/prepare_fig11_profiles.py",
+    "destination": "cases/tube_profiles.py",
+    "source_sha256": "e31f4aeff5a50df64bf92d8e99c0e31429cfa3d23d08a25634a462fec40f53ce"
+  },
+  {
+    "source": "newcode/cases/traction_settings.py",
+    "destination": "cases/traction_settings.py",
+    "source_sha256": "f707ac3b7009cc332825642cdec388eae09d1cc6eefd896dd53c655566e14e2c"
+  },
+  {
+    "source": "fig/fig4_superellipse_mixed_comparison/plot_fig4_superellipse_mixed_comparison.py",
+    "destination": "plotting/templates/plot_fig4_superellipse_mixed_comparison.py",
+    "source_sha256": "5d372ca82804c457d831b270777b58479239e88b307a5f0455a25f12b95dd280"
+  },
+  {
+    "source": "fig/fig11_tube_pull_torsion_profiles/plot_fig11_tube_pull_torsion_profiles.py",
+    "destination": "plotting/templates/plot_fig11_tube_pull_torsion_profiles.py",
+    "source_sha256": "a847e6a3e35a99f535c7939d1b3ab985567e692e99f64f32d8833660576b3f11"
+  },
+  {
+    "source": "fig/fig8_spherical_shell_radial_profiles/plot_fig8_spherical_shell_radial_profiles.py",
+    "destination": "plotting/templates/plot_fig8_spherical_shell_radial_profiles.py",
+    "source_sha256": "ee9117b78a83ab00959c73e4e350c4db31c757c4527a9798a4b464f99329977c"
+  },
+  {
+    "source": "fig/fig1_dirichlet_annulus/plot_fig1_dirichlet_annulus.py",
+    "destination": "plotting/templates/plot_fig1_dirichlet_annulus.py",
+    "source_sha256": "4c8102240d58ef008e51ffcb60104b8e1dbf30a8da723428232921d0d6761758"
+  },
+  {
+    "source": "fig/fig2_annulus_radial_comparison/plot_fig2_annulus_radial_comparison.py",
+    "destination": "plotting/templates/plot_fig2_annulus_radial_comparison.py",
+    "source_sha256": "e9a8869d97b1618706a6b499c70b7664d8e1747b17fe78813d36f06e2fea19ab"
+  },
+  {
+    "source": "fig/fig3_annulus_radial_stress/plot_fig3_annulus_radial_stress.py",
+    "destination": "plotting/templates/plot_fig3_annulus_radial_stress.py",
+    "source_sha256": "a44df4d5ea6816297ec9d446e1f6aa6f243eac8b4a88791a5ad343e2eb068ea4"
+  },
+  {
+    "source": "fig/fig7_spherical_shell_radial_bvp/plot_fig7_spherical_shell_radial_bvp.py",
+    "destination": "plotting/templates/plot_fig7_spherical_shell_radial_bvp.py",
+    "source_sha256": "25587b3f4a4d52819d65e5cec27078801c61029fc11cf8ca519a81617c3b059c"
+  },
+  {
+    "source": "fig/fig9_tube_pull_torsion_schematic/plot_fig9_tube_pull_torsion_schematic.py",
+    "destination": "plotting/templates/plot_fig9_tube_pull_torsion_schematic.py",
+    "source_sha256": "282a9fc70a9e22aa95a2db8d0ff10b65eb246771205f5d24e81b9d3cb0de2ffe"
+  },
+  {
+    "source": "fig/fig6_ellipsoid_dirichlet_3d/plot_fig6_ellipsoid_dirichlet.py",
+    "destination": "plotting/templates/plot_fig6_ellipsoid_dirichlet.py",
+    "source_sha256": "51d2dda583db0b6cce7be90a9d3b3f0e0ada7c5e0030298501f15fef8f50d529"
+  },
+  {
+    "source": "fig/fig5_superellipse_mixed_stress/plot_fig5_superellipse_mixed_stress.py",
+    "destination": "plotting/templates/plot_fig5_superellipse_mixed_stress.py",
+    "source_sha256": "79a91f3f27de6f0c5ec9c188f57003d9870e7d9256663e67acccd8da552877b0"
+  },
+  {
+    "source": "fig/fig10_tube_pull_torsion/plot_fig10_tube_pull_torsion.py",
+    "destination": "plotting/templates/plot_fig10_tube_pull_torsion.py",
+    "source_sha256": "c4725c3febaed127597d6addb45edc928f6789646cae1aeb2b77b03a29b64ce3"
+  },
+  {
+    "source": "newcode/cases/plot_fem_line_comparisons.py",
+    "destination": "plotting/planar_comparisons.py",
+    "source_sha256": "edc55734d739f505733e27a3ea608ec2ae35d9d0b695ca0945ad1c8cf4b181b4"
+  },
+  {
+    "source": "newcode/cases/plot_spherical_line_comparisons.py",
+    "destination": "plotting/spherical_comparisons.py",
+    "source_sha256": "bba7fb76483410b217e48c98e90b7d97f520f97796f2d7f7b17db34aba95c628"
+  },
+  {
+    "source": "newcode/cases/dirichlet_bfl_3d_reference.npz",
+    "destination": "tests/data/dirichlet_bfl_3d_reference.npz",
+    "source_sha256": "fd5de7f92f51d8881023b1ce32f117b14279700f8d32bd10bbc71dcafff0b136"
+  },
+  {
+    "source": "newcode/cases/test_line_comparison_sampling.py",
+    "destination": "tests/test_plot_sampling.py",
+    "source_sha256": "61f4ef72fa653f38582bc65266b9410c5cd241c4c0bb0f5f6a887c49e5885882"
+  },
+  {
+    "source": "newfig/neumann_characteristic/fig4_superellipse_mixed_comparison/fig4_superellipse_mixed_comparison.png",
+    "destination": "docs/assets/superellipse.png",
+    "source_sha256": "2f0cb6117aea2a25a9e24c785faa6feb23b2458caba7284457ba7adffef17744"
+  },
+  {
+    "source": "newfig/neumann_characteristic/fig10_tube_pull_torsion/fig10_tube_pull_torsion.png",
+    "destination": "docs/assets/tube.png",
+    "source_sha256": "3c8af7d8ed4c735e2debb2439f76721207f6050331b17acabbefc10355fa9292"
+  },
+  {
+    "source": "../vector_lbm_3d_package/cases/fem_tube_pull_torsion_reference.py",
+    "destination": "cases/fem/tube_reference.py",
+    "source_sha256": "2fae189d974a3db8db443cd4c4c1432583bdeee95292357eab8eb23af2333143"
+  }
+]

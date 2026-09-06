@@ -1,0 +1,19 @@
+{
+  "reason": "Freeze source populations during in-place boundary initialization to remove read/write dependencies between opposing cut links. Population formulas and ordinary time-stepping kernels are unchanged.",
+  "changed_methods": [
+    "WarpCurvedBoundaryLBM2D.apply_boundary_reconstruction",
+    "WarpCurvedBoundaryLBM3D.apply_boundary_reconstruction (dense)",
+    "WarpSparseCurvedBoundaryLBM3D.apply_boundary_reconstruction"
+  ],
+  "release_definition_hashes": {
+    "src/curved_lbm/two_d/curved_boundary_warp.py": {
+      "WarpCurvedBoundaryLBM2D": "09554ec5d12e2ad99ff95258987cdd8b4fbbdeac521da8dc55ab22634d750413"
+    },
+    "src/curved_lbm/three_d/curved_boundary_warp3d.py": {
+      "WarpCurvedBoundaryLBM3D": "6fbc53134275aa1fb1f5fced6fc0de7ed94a8e056ea18ef14659218ebbf3ca54",
+      "WarpSparseCurvedBoundaryLBM3D": "d0d239a7bc33f3643743790c6fafd0c1d21e85733296554e20b9d8b26252f6af"
+    }
+  },
+  "unmodified_top_level_definitions": 199,
+  "regression_test": "tests/test_initial_boundary_buffers.py"
+}

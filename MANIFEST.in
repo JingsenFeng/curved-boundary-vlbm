@@ -1,0 +1,12 @@
+include README.md LICENSE NOTICE CITATION.cff CONTRIBUTING.md CHANGELOG.md
+include requirements-reproducible.txt .gitignore .gitattributes
+graft cases
+graft plotting
+graft reference_data
+graft tests
+graft docs
+graft validation
+graft scripts
+graft .github
+global-exclude __pycache__ *.py[cod] *.log
+prune results
