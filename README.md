@@ -13,8 +13,11 @@ The package provides D2Q4×6 and D3Q6×12 solvers implemented in NVIDIA Warp, th
 manuscript benchmarks, FEM reference arrays, and figure-generation scripts.
 
 <p align="center">
-  <img src="docs/assets/superellipse.png" width="65%" alt="Rotated superellipse: FEM and VLBM displacement and deformation-gradient comparisons">
-  <img src="docs/assets/tube.png" width="32%" alt="Finite tube under axial stretch and torsion">
+  <img src="docs/assets/superellipse.png" width="100%" alt="Rotated superellipse: FEM and VLBM displacement and deformation-gradient comparisons">
+</p>
+
+<p align="center">
+  <img src="docs/assets/tube.png" width="100%" alt="Finite tube under axial stretch and torsion">
 </p>
 
 ## Method
