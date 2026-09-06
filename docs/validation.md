@@ -40,6 +40,14 @@ exact-solution, FEM, and BVP benchmarks.
 metrics and common numerical settings. [release_verification.json](../validation/release_verification.json)
 records the release checks and comparison of the packaged calculations with those metrics.
 
+The release completed all nine reproduction tasks: six affine-annulus grids, five
+ellipsoid grids, and seven traction or mixed-boundary calculations, giving 18 individual
+grid runs. All reached the prescribed final time within time-step rounding, with finite
+saved fields and positive deformation Jacobians. Every stored error metric, including
+the tube/FEM profile comparisons, agrees with the manuscript baseline to three significant
+digits. The largest relative metric change is 0.0078% in the displacement error of the
+160³ ellipsoid following the initialization fix described below.
+
 The 202 top-level function/class definitions in the five solver modules were compared
 with the manuscript source. Of these, 199 are unchanged. Three boundary-dispatch methods
 now copy the initial populations into a scratch buffer before applying cut-link updates.
@@ -56,7 +64,6 @@ The figure pipeline is also checked after moving the datasets into a new directo
 and replacing stored workstation paths with unavailable paths. This exercises the
 bundled plot templates, local snapshot resolution, and FEM reference files.
 
-The full benchmark commands record actual completion times, finite states, positive
-Jacobians, and the uniform traction settings. Numerical validity remains dependent on
-the material, loading, resolution, and time step; the reported checks cover the
-configurations documented in [Benchmarks](benchmarks.md).
+The full benchmark commands record source hashes, elapsed times, completion status,
+and the uniform traction settings. The tested configurations and their complete
+commands are documented in [Benchmarks](benchmarks.md).

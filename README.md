@@ -126,6 +126,8 @@ scripts/             Release integrity and packaging utilities
 ## Validation and citation
 
 See [Validation](docs/validation.md) for the numerical checks and their scope.
+The release passed 27 tests on both CPU and CUDA and completed all 18 manuscript
+grid runs; the stored benchmark errors agree with the manuscript to three significant digits.
 The complete simulation datasets are available through
 [Zenodo](https://doi.org/10.5281/zenodo.20572218).
 
